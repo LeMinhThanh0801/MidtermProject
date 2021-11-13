@@ -1176,3 +1176,13 @@
 2021-11-13T10:48:31:     at IncomingMessage.emit (events.js:327:22)
 2021-11-13T10:48:31:     at endReadableNT (internal/streams/readable.js:1327:12)
 2021-11-13T10:48:31:     at processTicksAndRejections (internal/process/task_queues.js:80:21)
+2021-11-13T13:11:54: SyntaxError: Unexpected token I in JSON at position 90
+2021-11-13T13:11:54:     at JSON.parse (<anonymous>)
+2021-11-13T13:11:54:     at parse (C:\Users\MinhThanh\Downloads\sutdent-teacher-main\sutdent-teacher-main\app-chat-api\node_modules\body-parser\lib\types\json.js:89:19)
+2021-11-13T13:11:54:     at C:\Users\MinhThanh\Downloads\sutdent-teacher-main\sutdent-teacher-main\app-chat-api\node_modules\body-parser\lib\read.js:121:18
+2021-11-13T13:11:54:     at invokeCallback (C:\Users\MinhThanh\Downloads\sutdent-teacher-main\sutdent-teacher-main\app-chat-api\node_modules\raw-body\index.js:224:16)
+2021-11-13T13:11:54:     at done (C:\Users\MinhThanh\Downloads\sutdent-teacher-main\sutdent-teacher-main\app-chat-api\node_modules\raw-body\index.js:213:7)
+2021-11-13T13:11:54:     at IncomingMessage.onEnd (C:\Users\MinhThanh\Downloads\sutdent-teacher-main\sutdent-teacher-main\app-chat-api\node_modules\raw-body\index.js:273:7)
+2021-11-13T13:11:54:     at IncomingMessage.emit (events.js:327:22)
+2021-11-13T13:11:54:     at endReadableNT (internal/streams/readable.js:1327:12)
+2021-11-13T13:11:54:     at processTicksAndRejections (internal/process/task_queues.js:80:21)

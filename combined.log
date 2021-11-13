@@ -2571,3 +2571,27 @@
 2021-11-13T10:48:31:     at processTicksAndRejections (internal/process/task_queues.js:80:21)
 2021-11-13T10:56:39: Server listen at port 3000
 2021-11-13T10:56:39: connect to mongoDB
+2021-11-13T12:28:40: Server listen at port 3000
+2021-11-13T12:28:40: connect to mongoDB
+2021-11-13T12:30:25: Server listen at port 3000
+2021-11-13T12:30:25: connect to mongoDB
+2021-11-13T12:35:21: Server listen at port 3000
+2021-11-13T12:35:21: connect to mongoDB
+2021-11-13T12:38:31: Server listen at port 3000
+2021-11-13T12:38:31: connect to mongoDB
+2021-11-13T12:40:42: Server listen at port 3000
+2021-11-13T12:40:42: connect to mongoDB
+2021-11-13T12:46:06: Server listen at port 3000
+2021-11-13T12:46:07: connect to mongoDB
+2021-11-13T13:08:53: Server listen at port 3000
+2021-11-13T13:08:53: connect to mongoDB
+2021-11-13T13:11:54: SyntaxError: Unexpected token I in JSON at position 90
+2021-11-13T13:11:54:     at JSON.parse (<anonymous>)
+2021-11-13T13:11:54:     at parse (C:\Users\MinhThanh\Downloads\sutdent-teacher-main\sutdent-teacher-main\app-chat-api\node_modules\body-parser\lib\types\json.js:89:19)
+2021-11-13T13:11:54:     at C:\Users\MinhThanh\Downloads\sutdent-teacher-main\sutdent-teacher-main\app-chat-api\node_modules\body-parser\lib\read.js:121:18
+2021-11-13T13:11:54:     at invokeCallback (C:\Users\MinhThanh\Downloads\sutdent-teacher-main\sutdent-teacher-main\app-chat-api\node_modules\raw-body\index.js:224:16)
+2021-11-13T13:11:54:     at done (C:\Users\MinhThanh\Downloads\sutdent-teacher-main\sutdent-teacher-main\app-chat-api\node_modules\raw-body\index.js:213:7)
+2021-11-13T13:11:54:     at IncomingMessage.onEnd (C:\Users\MinhThanh\Downloads\sutdent-teacher-main\sutdent-teacher-main\app-chat-api\node_modules\raw-body\index.js:273:7)
+2021-11-13T13:11:54:     at IncomingMessage.emit (events.js:327:22)
+2021-11-13T13:11:54:     at endReadableNT (internal/streams/readable.js:1327:12)
+2021-11-13T13:11:54:     at processTicksAndRejections (internal/process/task_queues.js:80:21)

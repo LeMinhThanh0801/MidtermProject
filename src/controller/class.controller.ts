@@ -1,5 +1,4 @@
 import classModel from '../model/class.model';
-import userClass from '../model/user-class.model';
 class classes {
   async createClass(req: any, res: any) {
     const user = res.locals.user;
@@ -10,9 +9,9 @@ class classes {
         ...req.body,
       };
       try {
+        body.user = user.id;
         const newClass = await classModel.create(body);
-        await userClass.create({ user: user.id, class: newClass._id });
-        res.json(body);
+        res.json(newClass);
       } catch (error) {
         res.sendStatus(500);
       }

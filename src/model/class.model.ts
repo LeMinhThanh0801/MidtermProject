@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
-
+import { type } from 'os';
+const { ObjectId } = require('mongoose').Types;
 const Class = new mongoose.Schema(
   {
     name: {
@@ -13,9 +14,16 @@ const Class = new mongoose.Schema(
       type: String,
       required: true,
     },
-    startTime: Date,
-    completedTime: Date,
+    user: [
+      {
+        type: ObjectId,
+        ref: 'user',
+      },
+    ],
+    startTime: { type: Date },
+    completedTime: { type: Date },
   },
+
   { timestamps: true }
 );
 
